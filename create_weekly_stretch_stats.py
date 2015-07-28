@@ -73,10 +73,10 @@ for row in results:
 	#	break
 	#x+=1
 
-x=0
-results = stretch_table.find(position=['TE', 'WR'], order_by='-fantasy_points')
-for row in results:
-	print "{:<30}".format(row['player']), " ", row['position'], " ", "{:<2}".format(row['week1']), " ", "{:<2}".format(row['week2']), " ", "{:<2}".format(row['week3']), " ", "{:<2}".format(row['week4']), " ", "{0:.2f}".format(row['fantasy_points_per_week']), " ", row['fantasy_points']#, " recv yards ", row['receiving_yards'], " recv tds ", row['receiving_tds'], " receptions ", row['receiving_completions'], " rush yds ", row['rushing_yards'], " rush tds ", row['rushing_tds']
-	x+=1
-	if x > 250:
-		break
+#x=0
+#results = stretch_table.find(position=['TE', 'WR'], order_by='-fantasy_points')
+#for row in results:
+#	print "{:<30}".format(row['player']), " ", row['position'], " ", "{:<2}".format(row['week1']), " ", "{:<2}".format(row['week2']), " ", "{:<2}".format(row['week3']), " ", "{:<2}".format(row['week4']), " ", "{0:.2f}".format(row['fantasy_points_per_week']), " ", row['fantasy_points']#, " recv yards ", row['receiving_yards'], " recv tds ", row['receiving_tds'], " receptions ", row['receiving_completions'], " rush yds ", row['rushing_yards'], " rush tds ", row['rushing_tds']
+#	x+=1
+#	if x > 250:
+#		break
